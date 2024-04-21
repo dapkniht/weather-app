@@ -1,0 +1,19 @@
+{
+  "name": "countdown-timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@iconify-json/arcticons": "^1.1.100",
+    "@iconify-json/ph": "^1.1.12",
+    "@iconify/tailwind": "^0.1.4",
+    "tailwindcss": "^3.2.4"
+  }
+}
